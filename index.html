@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KP Seasonal Company</title>
+<meta charset="utf-8">
+<meta name="description" content="This is the Home page of our website KP Seasonals and from this page you can naviagate to other pages.">
+<link rel="stylesheet" href="seasonal.css">
+<link rel="icon" href="mango.png" type="image/x-ico">
+</head>
+
+<body>
+   <div id="wrapper">
+<header>
+  <h1> KP Seasonal Company</h1>
+</header>
+
+ <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Festivals
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="diwali.html">Diwali</a>
+      <a href="kites.html">Uttrayan</a>
+       <a href="holi.html">Holi</a>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn">Tropical Fruits
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="mango.html">Mangoes</a>
+      <a href="chiku.html">Chiku</a>
+    </div>
+  </div>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div> 
+
+<div class="w3-content" style="max-width:relative;">
+
+  <img class="mySlides" src="slider_1.jpg" style="width:100%">
+  <img class="mySlides" src="slider_3.jpg" style="width:100%">
+  <img class="mySlides" src="slider_4.jpg" style="width:100%">
+  <img class="mySlides" src="slider_5.jpg" style="width:100%">
+  <img class="mySlides" src="slider_6.jpg" style="width:100%">
+  <img class="mySlides" src="slider_7.jpg" style="width:100%">
+</div>
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+<main>
+<h2> Enjoy the Taste of Gir</h2>
+<video controls="controls" poster="mango.jpg">
+<source src="mango.mp4" type="video/mp4">
+<embed type="application/x-shockwave-flash" src="mango.mp4" quality="high" width="320" height="240" title="KPSEASONALCOMAPNY">
+</video>
+
+<p> <span class="resort">KP Seasonal Company</span> provides fresh tropical fruits straight from the farm in Gir Jungle of Gujarat.</p>
+  <ul>
+    <li> Varities of Fireworks and Diwali items</li>
+    <li> Different types of Kites and Threads</li>
+    <li> Varities of water guns and colors for Holi</li>
+    <li> Kesar Mangoes straight from the farm </li>
+    <li> Sweet Chiku from the farm  </li>
+  </ul>
+  <div id="contact">
+    <br>
+    <span class="resort">KP Seasonal Company</span><br>
+    12231 KP Mountain Road<br>
+    Bapunagar, AZ 84255<br><br>
+    888-222-2121
+  </div><br>
+</main>
+  <footer>
+    Copyright &copy; 2016 KP Seasonal Company<br>
+    <a href="Sanket@Parikh.com">Sanket@Parikh.com </a>
+   
+</footer>
+</body>
+</html>
