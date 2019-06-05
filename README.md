@@ -17,15 +17,17 @@ Goal of my website is to represent all the HTML/CSS styles and elements to creat
 There will be four main pages, and some will have subpages listed below:
 1.	Home – This is where I will be having a slide show representing all my other pages and a section of About Us on the page. 
 2.	Festivals – On this page I will be having two subpages Diwali and Uttrayan, these two are the most popular Indian festivals.
+
     a.	Diwali – I will have the description of the festival with the picture of products people buy.
     b.	Uttrayan – I will have the description of the festival with the picture of products people buy.
     c.	Holi – I will have the description of the festival with the picture of products people buy.
-3.	Tropical Fruits – On this page there will be having two subpages Mangoes and Cheeku, which are the high demand fruits in India 
+3.	Tropical Fruits – On this page there will be having two subpages Mangoes and Cheeku, which are the high demand fruits in India
+
     a.	Mangoes – I will have the different types of Mangoes listed with its pictures and its description.
     b.	Chiku (Sapodilla) – I will have pictures of Chiku farms and pictures of fruit. 
 4.	Contact – This page will have the contact info and the address. It will also have a form to submit any reviews.   
 
 
-## Screenshots of webpages
+## Screenshots of my project
 ![image](https://user-images.githubusercontent.com/46975039/58932834-1f90e600-871a-11e9-92dd-c9bba088e777.png)
 ![image](https://user-images.githubusercontent.com/46975039/58932921-78607e80-871a-11e9-9845-e62479a41979.png)
