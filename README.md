@@ -7,4 +7,4 @@ Goal of my website is to represent all the HTML/CSS styles and elements to creat
 
 
 # Website Flow chart:
-
+![image](https://user-images.githubusercontent.com/46975039/58932671-75b15980-8719-11e9-967a-5cad4802836b.png)
